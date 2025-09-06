@@ -1,6 +1,6 @@
 package com.internintelligence.gmailapplication.model.entity;
 
-mport jakarta.persistence.*;
+
 import jakarta.persistence.*;
 import lombok.*;
 
