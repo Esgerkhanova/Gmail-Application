@@ -1,4 +1,4 @@
-package com.internintelligence.gmailapplication.model.dto.request;
+package com.internintelligence.gmailapplication.model.request;
 
 
 import lombok.Getter;
@@ -7,7 +7,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class EmailRequest {
+public class GmailRequest {
     private String to;
     private String subject;
     private String body;

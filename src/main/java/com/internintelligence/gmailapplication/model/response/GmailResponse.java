@@ -1,4 +1,4 @@
-package com.internintelligence.gmailapplication.model.dto.response;
+package com.internintelligence.gmailapplication.model.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -9,7 +9,7 @@ import java.time.LocalDateTime;
 @Getter
 @Setter
 @AllArgsConstructor
-public class EmailResponse {
+public class GmailResponse {
     private Long id;
     private String from;
     private String to;
